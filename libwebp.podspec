@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'libwebp'
-  s.version          = '1.3.2'
+  s.version          = '1.3.2.1'
   s.summary          = 'Library to encode and decode images in WebP format.'
   s.homepage         = 'https://developers.google.com/speed/webp/'
   s.authors          = 'Google Inc.'
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
+  s.visionos.deployment_target = '1.0'
 
   s.pod_target_xcconfig = {
     'USER_HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libwebp/ ${PODS_TARGET_SRCROOT}/'
